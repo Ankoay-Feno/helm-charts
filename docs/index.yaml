@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  postgresql:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-11-13T22:03:10.594666328+03:00"
+    description: postgresql
+    digest: d4d49dfda4f6a8ea0b8d7dc3c462d4f552306f3de7e25c9a4d868c7692e9228f
+    name: postgresql
+    type: application
+    urls:
+    - https://ankoay-feno.github.io/helm-charts/postgresql-0.1.0.tgz
+    version: 0.1.0
+  storageclass:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-11-13T22:03:10.594859729+03:00"
+    description: Storage Class
+    digest: 5882a1d8105e1b7b7296f437292be7323e25d8f6cd21319f36ab1b1cfbf934b6
+    icon: https://helm.sh/img/boat.svg
+    name: storageclass
+    type: application
+    urls:
+    - https://ankoay-feno.github.io/helm-charts/storageclass-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-11-13T22:03:10.59427219+03:00"
