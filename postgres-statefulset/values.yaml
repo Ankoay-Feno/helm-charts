@@ -1,0 +1,22 @@
+postgresql:
+  enabled: true
+  image: "postgres:15"
+  replicas: 1
+  port: 5432
+
+  storage:
+    size: 10Gi
+    className: gp3-default
+
+  credentials:
+    user: "admin"
+    password: "admin123"
+    db: "mydatabase"
+
+  resources:
+    requests:
+      cpu: "100m"
+      memory: "256Mi"
+    limits:
+      cpu: "500m"
+      memory: "512Mi"
