@@ -1,0 +1,7 @@
+apiVersion: v2
+name: storageclass
+description: Storage Class
+type: application
+version: 0.1.0
+appVersion: "1.0"
+icon: https://helm.sh/img/boat.svg
