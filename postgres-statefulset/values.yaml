@@ -1,6 +1,6 @@
 postgresql:
   enabled: true
-  image: "postgres:trixie"
+  image: "postgres:17"
   replicas: 1
   port: 5432
 

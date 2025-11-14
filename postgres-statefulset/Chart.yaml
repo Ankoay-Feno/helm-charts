@@ -1,6 +1,7 @@
 apiVersion: v2
 name: postgresql
-description: postgresql
+description: postgresql statefulset deployment.
 type: application
 version: 0.1.0
-appVersion: "postgres:trixie"
+appVersion: "postgres:17"
+icon: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg

@@ -2,25 +2,26 @@ apiVersion: v1
 entries:
   postgresql:
   - apiVersion: v2
-    appVersion: postgres:trixie
-    created: "2025-11-13T22:51:19.293456581+03:00"
-    description: postgresql
-    digest: b2e4ed22928ddd01f2b8f8163f0c89e4c0ff5695470856ec86670a5ee9145e79
+    appVersion: postgres:17
+    created: "2025-11-14T12:25:04.161749518+03:00"
+    description: postgresql statefulset deployment.
+    digest: 8ad53610dc16f21cfbe0e0379f503ddc956a781542d12c446b28cbc88cc8391e
+    icon: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg
     name: postgresql
     type: application
     urls:
-    - https://ankoay-feno.github.io/helm-charts/docs/postgresql-0.1.0.tgz
+    - helm-charts.infracraft.me/docs/postgresql-0.1.0.tgz
     version: 0.1.0
   storageclass:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-11-13T22:51:19.293750344+03:00"
+    created: "2025-11-14T12:25:04.161951338+03:00"
     description: Storage Class
-    digest: 5882a1d8105e1b7b7296f437292be7323e25d8f6cd21319f36ab1b1cfbf934b6
-    icon: https://helm.sh/img/boat.svg
+    digest: eb29319c735af3d9774214327a34e4b455a8e548c08707189d040507cff7a200
+    icon: https://www.cloudseedrive.com/wp-content/uploads/sites/13/2024/04/webapper-blog-storage-classes.jpg
     name: storageclass
     type: application
     urls:
-    - https://ankoay-feno.github.io/helm-charts/docs/storageclass-0.1.0.tgz
+    - helm-charts.infracraft.me/docs/storageclass-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-13T22:51:19.292867913+03:00"
+generated: "2025-11-14T12:25:04.161343241+03:00"
