@@ -1,0 +1,6 @@
+clusterIssuer:
+  enabled: true
+  email: "ankoayfeno@gmail.com"
+  secretName: "letsencrypt-secret"
+  name: "letsencrypt"
+  ingressClass: "nginx"

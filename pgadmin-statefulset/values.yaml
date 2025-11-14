@@ -10,7 +10,7 @@ pgadmin:
     size: 2Gi
   ingress:
     enabled: true
-    host: "http://psqladmin.infracraft.me/"
+    host: "psqladmin.infracraft.me"
     path: "/"
 
 postgresql:
@@ -19,9 +19,9 @@ postgresql:
       name: "PostgreSQLk8s"
       host: "postgresql"
       port: 5432
-      db: "appdb"
-      user: "appuser"
-      password: "apppassword"
+      db: "postgres"
+      user: "admin"
+      password: "admin123"
 
     - id: "2"
       name: "PostgreSQL-Reporting"
