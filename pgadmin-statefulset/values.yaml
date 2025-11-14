@@ -1,0 +1,32 @@
+pgadmin:
+  enabled: true
+  image: "dpage/pgadmin4"
+  port: 80
+  credentials:
+    email: "admin@admin.com"
+    password: "admin123"
+  storage:
+    className: gp3-default
+    size: 2Gi
+  ingress:
+    enabled: true
+    host: "pgadmin.infracraft.me"
+    path: "/"
+
+postgresql:
+  servers:
+    - id: "1"
+      name: "PostgreSQLk8s"
+      host: "postgresql"
+      port: 5432
+      db: "appdb"
+      user: "appuser"
+      password: "apppassword"
+
+    - id: "2"
+      name: "PostgreSQL-Reporting"
+      host: "postgresql-reporting"
+      port: 5432
+      db: "reportdb"
+      user: "reportuser"
+      password: "reportpassword"

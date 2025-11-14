@@ -1,9 +1,21 @@
 apiVersion: v1
 entries:
+  pgadmin4:
+  - apiVersion: v2
+    appVersion: dpage/pgadmin4:9.10
+    created: "2025-11-14T14:57:26.439554682+03:00"
+    description: pgadmin4 statefulset deployment.
+    digest: 0fc8d6093189502ffbb91d461aa981a244379e3474a1d5b5e973c9d82d745604
+    icon: https://miro.medium.com/v2/resize:fit:720/format:webp/1*QJh3QlqdpZQWgeLWzFPsKw.png
+    name: pgadmin4
+    type: application
+    urls:
+    - https://helm-charts.infracraft.me/docs/pgadmin4-0.1.0.tgz
+    version: 0.1.0
   postgresql:
   - apiVersion: v2
     appVersion: postgres:17
-    created: "2025-11-14T13:34:04.49435371+03:00"
+    created: "2025-11-14T14:57:26.442883378+03:00"
     description: postgresql statefulset deployment.
     digest: 8ad53610dc16f21cfbe0e0379f503ddc956a781542d12c446b28cbc88cc8391e
     icon: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg
@@ -15,7 +27,7 @@ entries:
   storageclass:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-11-14T13:34:04.495311625+03:00"
+    created: "2025-11-14T14:57:26.443330884+03:00"
     description: Storage Class
     digest: eb29319c735af3d9774214327a34e4b455a8e548c08707189d040507cff7a200
     icon: https://www.cloudseedrive.com/wp-content/uploads/sites/13/2024/04/webapper-blog-storage-classes.jpg
@@ -24,4 +36,4 @@ entries:
     urls:
     - https://helm-charts.infracraft.me/docs/storageclass-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-14T13:34:04.493223678+03:00"
+generated: "2025-11-14T14:57:26.438764584+03:00"

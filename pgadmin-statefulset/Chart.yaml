@@ -1,0 +1,7 @@
+apiVersion: v2
+name: pgadmin4
+description: pgadmin4 statefulset deployment.
+type: application
+version: 0.1.0
+appVersion: "dpage/pgadmin4:9.10"
+icon: https://miro.medium.com/v2/resize:fit:720/format:webp/1*QJh3QlqdpZQWgeLWzFPsKw.png

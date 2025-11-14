@@ -1,0 +1,30 @@
+{{- if .Values.pgadmin.enabled }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pgadmin-config
+data:
+  servers.json: |
+    {
+      "Servers": {
+        {{- $i := 1 }}
+        {{- range .Values.postgresql.servers }}
+        "{{ $i }}": {
+          "Name": "{{ .name }}",
+          "Group": "Servers",
+          "Host": "{{ .host }}",
+          "Port": {{ .port }},
+          "MaintenanceDB": "{{ .db }}",
+          "Username": "{{ .user }}",
+          "SSLMode": "prefer"
+        }{{ if lt $i (len $.Values.postgresql.servers) }},{{ end }}
+        {{- $i = add1 $i }}
+        {{- end }}
+      }
+    }
+
+  # pgpass: |
+  #   {{- range .Values.postgresql.servers }}
+  #   {{ .host }}:{{ .port }}:{{ .db }}:{{ .user }}:{{ .password }}
+  #   {{- end }}
+{{- end }}
