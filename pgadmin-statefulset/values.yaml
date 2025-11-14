@@ -10,7 +10,7 @@ pgadmin:
     size: 2Gi
   ingress:
     enabled: true
-    host: "pgadmin.infracraft.me"
+    host: "http://psqladmin.infracraft.me/"
     path: "/"
 
 postgresql:
