@@ -10,7 +10,7 @@ entries:
     name: pgadmin4
     type: application
     urls:
-    - https://helm-charts.infracraft.me/docs/pgadmin4-0.1.0.tgz
+    - https://ankoay-feno.github.io/helm-charts/docs/pgadmin4-0.1.0.tgz
     version: 0.1.0
   postgresql:
   - apiVersion: v2
@@ -22,7 +22,7 @@ entries:
     name: postgresql
     type: application
     urls:
-    - https://helm-charts.infracraft.me/docs/postgresql-0.1.0.tgz
+    - https://ankoay-feno.github.io/helm-charts/docs/postgresql-0.1.0.tgz
     version: 0.1.0
   storageclass:
   - apiVersion: v2
@@ -34,6 +34,6 @@ entries:
     name: storageclass
     type: application
     urls:
-    - https://helm-charts.infracraft.me/docs/storageclass-0.1.0.tgz
+    - https://ankoay-feno.github.io/helm-charts/docs/storageclass-0.1.0.tgz
     version: 0.1.0
 generated: "2025-11-14T15:13:32.045971371+03:00"
