@@ -3,6 +3,7 @@ postgresql:
   image: "postgres:17"
   replicas: 1
   port: 5432
+  serviceName: "postgresql-headless"
 
   storage:
     size: 10Gi
